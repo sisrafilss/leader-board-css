@@ -17,7 +17,6 @@ main {
   padding: 30px;
   border-radius: 5px;
   margin-top: 36px;
-  /* margin-bottom: 21px; */
 }
 .section-heading {
   color: #562eff;
@@ -28,6 +27,42 @@ main {
 hr {
   border: 1px solid #d1d1d1;
   margin-bottom: 27px;
+}
+/* ---------------------------------
+    Heder Area styles
+-----------------------------------*/
+header {
+  background-color: #562eff;
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+}
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  width: 870px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 51px;
+  height: 51px;
+}
+.logo span {
+  font-size: 24px;
+  color: #fff;
+  margin-left: 20px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 20px;
 }
 /* top players styles */
 .top-players {
@@ -53,7 +88,7 @@ hr {
 }
 
 /*---------------------------------
-      top blog styles 
+      top blog styles or utilities
 ------------------------------*/
 .blogs {
   display: grid;
